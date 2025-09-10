@@ -1,0 +1,181 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>M. Kavitha — Resume</title>
+  <style>
+    /* Reset */
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;line-height:1.35;color:#222}/* Page layout */
+.page{max-width:800px;margin:28px auto;padding:28px;border:1px solid #e6e6e6;border-radius:10px;background:#fff}
+header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+
+.name-block{display:flex;flex-direction:column}
+h1{font-size:28px;letter-spacing:0.4px;margin-bottom:6px}
+.sub{color:#555;font-size:13px}
+
+.contact{font-size:13px;color:#333;text-align:right}
+.contact a{color:#1a73e8;text-decoration:none}
+
+.badge{display:inline-block;background:#f3f7ff;color:#1a3ea8;padding:6px 10px;border-radius:8px;font-weight:600;font-size:12px}
+
+/* Two column layout */
+.grid{display:grid;grid-template-columns:1fr 280px;gap:22px}
+
+/* Left / Main */
+main h2{font-size:16px;color:#222;margin-bottom:10px}
+.section{margin-bottom:18px}
+.section p{font-size:14px;color:#333}
+
+.education .item{margin-bottom:10px}
+.item .title{font-weight:700}
+.item .meta{font-size:13px;color:#666}
+
+.skills ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+.skills li{background:#eef3ff;padding:6px 9px;border-radius:6px;font-size:13px}
+
+.projects .proj{border-left:3px solid #e9eefc;padding:8px 12px;background:#fcfeff;border-radius:6px;margin-bottom:10px}
+.proj .p-title{font-weight:700;margin-bottom:4px}
+.proj .p-desc{font-size:13px;color:#444}
+
+/* Right / Sidebar */
+aside{background:#fbfbfb;padding:14px;border-radius:8px;border:1px solid #f0f0f0;height:100%}
+.aside-section{margin-bottom:14px}
+.aside-section h3{font-size:13px;margin-bottom:8px;color:#333}
+.aside-section ul{list-style:none;padding-left:0}
+.aside-section li{font-size:13px;color:#444;padding:6px 0;border-bottom:1px dashed #eee}
+
+/* Footer */
+footer{font-size:12px;color:#666;text-align:center;margin-top:18px}
+
+/* Print friendly */
+@media print{
+  body{background:#fff}
+  .page{border:0;box-shadow:none}
+}
+
+/* Responsive */
+@media (max-width:720px){
+  .grid{grid-template-columns:1fr;}
+  .contact{text-align:left;margin-top:8px}
+  header{flex-direction:column;align-items:flex-start}
+}
+
+  </style>
+</head>
+<body>
+  <div class="page" role="article" aria-label="Resume of M. Kavitha">
+    <header>
+      <div class="name-block">
+        <h1>M. Kavitha</h1>
+        <div class="sub">Bachelor's student — TJS College of Arts &amp; Science</div>
+      </div>
+      <div class="contact">
+        <!-- Replace placeholders below with your real contact details -->
+        <div><span class="badge">Student • Coder</span></div>
+        <div style="margin-top:10px">Email: <a href="mailto:youremail@example.com">youremail@example.com</a></div>
+        <div>Phone: +91 9XXXXXXXXX</div>
+        <div style="margin-top:6px">Location: (City, State) — India</div>
+      </div>
+    </header><div class="grid">
+  <main>
+    <section class="section objective">
+      <h2>Objective</h2>
+      <p>Motivated bachelor's student at TJS College of Arts &amp; Science with strong coding skills, clear communication, and a demonstrated ability to learn quickly. Seeking internships or part-time roles where I can apply programming knowledge and grow through hands-on experience.</p>
+    </section>
+
+    <section class="section education">
+      <h2>Education</h2>
+      <div class="item">
+        <div class="title">TJS College of Arts &amp; Science</div>
+        <div class="meta">Bachelor's degree — Current student</div>
+        <div class="meta">Relevant coursework: Programming, Data Structures, Web Development</div>
+      </div>
+    </section>
+
+    <section class="section skills">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>HTML &amp; CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Data Structures &amp; Algorithms</li>
+        <li>Version Control (Git)</li>
+        <li>Problem Solving</li>
+      </ul>
+    </section>
+
+    <section class="section projects">
+      <h2>Projects</h2>
+      <div class="proj">
+        <div class="p-title">Personal Portfolio Website</div>
+        <div class="p-desc">Designed and built a responsive portfolio using HTML, CSS and JavaScript to showcase projects and coursework. Focused on accessibility and clean layout.</div>
+      </div>
+
+      <div class="proj">
+        <div class="p-title">Algorithm Practice &amp; Mini-apps</div>
+        <div class="p-desc">Completed multiple small applications and competitive programming problems to strengthen algorithmic thinking and implementation skills.</div>
+      </div>
+    </section>
+
+    <section class="section experience">
+      <h2>Experience</h2>
+      <p>As a student, I have worked on team assignments and college projects that involved planning, coding and presenting solutions. I participate actively in group discussions and peer code reviews.</p>
+    </section>
+
+    <section class="section accomplishments">
+      <h2>Strengths</h2>
+      <ul style="list-style:disc;padding-left:18px;margin-top:8px;color:#333">
+        <li>Strong coding fundamentals and quick learner</li>
+        <li>Good communication and active listening skills</li>
+        <li>Team player and open to feedback</li>
+      </ul>
+    </section>
+  </main>
+
+  <aside>
+    <div class="aside-section">
+      <h3>Contact & Links</h3>
+      <ul>
+        <li>Email: youremail@example.com</li>
+        <li>Phone: +91 9XXXXXXXXX</li>
+        <li>GitHub: github.com/yourusername</li>
+        <li>LinkedIn: linkedin.com/in/yourname</li>
+      </ul>
+    </div>
+
+    <div class="aside-section">
+      <h3>Languages</h3>
+      <ul>
+        <li>English — Good</li>
+        <li>Tamil — Native</li>
+      </ul>
+    </div>
+
+    <div class="aside-section">
+      <h3>Interests</h3>
+      <ul>
+        <li>Web development</li>
+        <li>Competitive programming</li>
+        <li>Reading &amp; learning new technologies</li>
+      </ul>
+    </div>
+
+    <div class="aside-section">
+      <h3>Availability</h3>
+      <ul>
+        <li>Open for internships and part-time positions</li>
+      </ul>
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <div>Resume — M. Kavitha • TJS College of Arts &amp; Science</div>
+</footer>
+
+  </div>
+</body>
+</html>
